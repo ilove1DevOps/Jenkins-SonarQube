@@ -1,3 +1,5 @@
+```https://www.ecloudcontrol.com/best-practices-to-reduce-docker-images-size/```
+
 Did a task on Docker using a 9-year-old -django application from github
 1. Clone the repo and run the django in my local system then i run it in the Virtual box, then noted the dependencies.(python 2.7 , pip-20.3.4)
 2. Then i understand the building process and its implementation.
