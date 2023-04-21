@@ -1,3 +1,19 @@
+Did a task on Docker using a 9-year-old -django application from github
+1. Clone the repo and run the django in my local system then i run it in the Virtual box, then noted the dependencies.(python 2.7 , pip-20.3.4)
+2. Then i understand the building process and its implementation.
+3. Then i make to run same process in docker container using ubuntu 22.04, 20.04 base image.
+4. then i reduce the docker image size with ubuntu and then alpine base image ubuntu -477, 466,423 then last 152mb then using alpine base image -113mb.then i reduce layers and remove the install packages after completion " rm -rf /var/lib/apt/lists/*".
+5. then write the Dockerfile build it then run the container then i understand the conflict of dependencies and using shell script to reduce the number of layers in dockerfile.
+6. Understanding the overlay2, readable layer, writeable layer, merged layer in docker.
+7. the conflict why do containers automatically stoped? who is responsible for container state?what are the total states in docker?
+
+Blog- SoC and Complinace
+Certification- hands on with VMs ,intro to Resource groups, users, groups, administrative units, managed licences.
+
+
+
+
+
 ***************
 Notejam: Django
 ***************
